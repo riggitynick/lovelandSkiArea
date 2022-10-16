@@ -14,10 +14,7 @@
  
   <script src="https://cdn.jsdelivr.net/gh/n5ro/aframe-physics-system@v4.0.1/dist/aframe-physics-system.min.js"></script>
 
-<!-- 
-   <script src="script.js">
-  </script> 
-    -->
+
 
 
 
@@ -70,7 +67,13 @@
  });
 
 
+ function removeSplash(){
+  document.getElementById("splashscreen").remove();
+};
 
+function removeWinPopup(){
+document.getElementById("winPopup").style.display = "none";
+};
 //  AFRAME.registerComponent('make-dynamic', {
    
   
@@ -90,6 +93,7 @@
 
 
 </script>
+
 
 
 
@@ -239,10 +243,10 @@ float: right;
  <div id="splashscreen">
   
   <div class="img1"></div>
-    <h3>Welcome to Shape Collect!,<br>
-     An AR game, where the objective<br>
-     is to walk through shapes and rings<br>
-    , to collect points.<br>
+    <h3>Welcome to Loveland!<br>
+     Use this interactive AR map<br>
+     to find differnt points of interest<br>
+     and collect special items.<br>
      <br>
      <span style="color: rgb(231, 250, 65);"> Reach 10 points to win!</span><br>
      <br>
@@ -538,7 +542,7 @@ float: right;
 
 <script src="script.js">
   
-</script>
+</script> 
 
 
 
