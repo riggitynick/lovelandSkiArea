@@ -1189,7 +1189,7 @@ sceneTrash.appendChild(modelTrash);
               let p = location.lat + latitudeWaterFeat;
               let t = location.long - longitudeWaterFeat;
          
-         let modelHeight = [((p + t) * 0.3) + 5];
+         let modelHeight = [(p + t) * 0.3] + 8;
       //////////////////
       
             modelWaterFeat.setAttribute('gps-entity-place', `latitude: ${latitudeWaterFeat}; longitude: ${longitudeWaterFeat};`);
@@ -1215,8 +1215,8 @@ sceneTrash.appendChild(modelTrash);
       
             });
        
-            modelWaterFeat.setAttribute('collect-disappear', '');
-            modelWaterFeat.setAttribute('getCenterPoint', '');
+            // modelWaterFeat.setAttribute('collect-disappear', '');
+            // modelWaterFeat.setAttribute('getCenterPoint', '');
 
             sceneWaterFeat.appendChild(modelWaterFeat);
         });
@@ -1332,7 +1332,7 @@ sceneTrash.appendChild(modelTrash);
               let p = location.lat + latitudeRestroom;
               let t = location.long - longitudeRestroom;
          
-         let modelHeight = [((p + t) * 0.3)-7];
+         let modelHeight = [(p + t) * 0.3] - 7;
       
       
       
@@ -1355,6 +1355,9 @@ sceneTrash.appendChild(modelTrash);
       
             });
        
+            modelRestroom.setAttribute('collect-disappear', '');
+            modelRestroom.setAttribute('getCenterPoint', '');
+
             sceneRestroom.appendChild(modelRestroom);
         });
        }
