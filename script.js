@@ -671,8 +671,8 @@ AFRAME.registerComponent('collect-disappear', {
       
       
        //THE FIRST BUSINESS' LOCATIONS
-      // function staticLoadPlacesParking() {
-      //  return [
+      function staticLoadPlacesParking() {
+       return [
       
       //  {location: {lat: 39.68070149733206,  lng:  -105.89699282464365},},  // Loveland parking lot
       
@@ -746,7 +746,7 @@ AFRAME.registerComponent('collect-disappear', {
       // //500
       //        {location: {lat: 39.745596,  lng: -104.837683,},},
       //       // home
-      //        {location: {lat: 39.476687,  lng: -105.081950 ,},},
+             {location: {lat: 39.476687,  lng: -105.081950 ,},},
       
       
       
@@ -754,8 +754,8 @@ AFRAME.registerComponent('collect-disappear', {
       
       
       
-      //         ];
-      //         }
+              ];
+              }
               
       
       /////////////////////////////// Gathers coords of user, for comparison of object coords
@@ -796,7 +796,7 @@ AFRAME.registerComponent('collect-disappear', {
            modelPark.setAttribute('gltf-model', 'models/dogParkParking2.gltf');
          
            //allows to rotate
-           modelPark.setAttribute('animation', 'property: rotation; to: 0 360 0; loop:true; dur: 6000; easing: linear');
+           modelPark.setAttribute('animation', 'property: rotation; to: 0 360 0; loop:true; dur: 9000; easing: linear');
           modelPark.setAttribute('scale', `25 25 25;`);
           modelPark.addEventListener('loaded', () => {
           window.dispatchEvent(new CustomEvent('gps-entity-place-loadedPark'))
@@ -835,12 +835,12 @@ AFRAME.registerComponent('collect-disappear', {
  
 
       //home
-       {location: {lat: 39.477062,  lng: -105.081663,},},
-       {location: {lat: 39.476847,  lng: -105.081652,},},
-       {location: {lat: 39.476857,  lng: -105.081657,},},
-      {location: {lat: 39.476720564669364,  lng: -105.08175373123294,},},
-      {location: {lat: 39.745279808923684, lng: -104.83717304103573,},},
-      {location: {lat: 39.7449715488114,  lng: -104.83740178596193,},},
+      //  {location: {lat: 39.477062,  lng: -105.081663,},},
+      //  {location: {lat: 39.476847,  lng: -105.081652,},},
+      //  {location: {lat: 39.476857,  lng: -105.081657,},},
+      // {location: {lat: 39.476720564669364,  lng: -105.08175373123294,},},
+      // {location: {lat: 39.745279808923684, lng: -104.83717304103573,},},
+      // {location: {lat: 39.7449715488114,  lng: -104.83740178596193,},},
      
 
       //drive to safeway from house
@@ -887,6 +887,23 @@ AFRAME.registerComponent('collect-disappear', {
 {location: {lat: 39.66744785576243,  lng:  -105.90673229311689},},  //top of chair 6
 {location: {lat: 39.673445469188174,  lng:  -105.89650196316897},},  // top of chair 1
 {location: {lat: 39.7444521777652,  lng:  -104.83877247670215},},
+
+                    //Chair 2
+
+                    {location: {lat: 39.67836138418121,  lng:  -105.90089655450475},},
+                    {location: {lat: 39.67760116178889,  lng:  -105.90203986881403},},
+                    {location: {lat: 39.6771791364856,  lng:  -105.90265430762763},},
+                    {location: {lat: 39.676481755100674,  lng:  -105.9036887369187},},
+                    {location: {lat: 39.675781367397796,  lng:  -105.90472317006176},},
+                    {location: {lat: 39.675365324483025,  lng:  -105.90532204535994},},
+                    {location: {lat: 39.67507199390096,  lng:  -105.90573815672134},},
+                    {location: {lat: 39.67444001538834,  lng:  -105.90669148980523},},
+                    {location: {lat: 39.673729552708814,  lng:  -105.9076899761623},},
+                    {location: {lat: 39.673094226477986,  lng:  -105.90860416290862},},
+                    {location: {lat: 39.672421320429244,  lng:  -105.90956272092947},},
+                    {location: {lat: 39.671663013800924,  lng:  -105.91069878877829},},
+                    {location: {lat: 39.6705016267279,  lng:  -105.91235406705798},},
+
 
 
 //Mom's house
@@ -962,7 +979,7 @@ AFRAME.registerComponent('collect-disappear', {
             modelTrash.setAttribute('scale', '20 20 20');
           
                  //allows to rotate
-            modelTrash.setAttribute('animation', 'property: rotation; to: 0 360 0; loop:true; dur: 4000; easing: linear');
+            modelTrash.setAttribute('animation', 'property: rotation; to: 0 360 0; loop:true; dur: 6000; easing: linear');
             
            
            modelTrash.setAttribute('static-body','');
@@ -1151,6 +1168,11 @@ sceneTrash.appendChild(modelTrash);
       {location: {lat: 39.47779330376479,  lng:  -105.08203578434234},},
       {location: {lat: 39.47787454993185,  lng:  -105.08154936468364},},
           
+
+      // LOVELAND WATER/ICE
+      {location: {lat: 39.68268093164536,  lng:  -105.91523929115867},},
+      {location: {lat: 39.6885900233185,  lng:  -105.91473287344986},},
+      {location: {lat: 39.689541084716126,  lng:  -105.91244337588294},},
       
                ];
                }
@@ -1175,7 +1197,7 @@ sceneTrash.appendChild(modelTrash);
             // modelCU.setAttribute('gltf-model', 'models/dogParkParking.gltf');
             modelWaterFeat.setAttribute('scale', '25 25 25');
                  //allows to rotate
-            modelWaterFeat.setAttribute('animation', 'property: rotation; to: 0 360 0; loop:true; dur: 4000; easing: linear');
+            modelWaterFeat.setAttribute('animation', 'property: rotation; to: 0 360 0; loop:true; dur: 9000; easing: linear');
             
             modelWaterFeat.setAttribute('static-body','');
 
@@ -1248,7 +1270,7 @@ sceneTrash.appendChild(modelTrash);
             // modelCU.setAttribute('gltf-model', 'models/dogParkParking.gltf');
             modelTrees.setAttribute('scale', '25 25 25');
                  //allows to rotate
-            modelTrees.setAttribute('animation', 'property: rotation; to: 0 360 0; loop:true; dur: 4000; easing: linear');
+            modelTrees.setAttribute('animation', 'property: rotation; to: 0 360 0; loop:true; dur: 6000; easing: linear');
             modelTrees.addEventListener('loaded', () => {
            window.dispatchEvent(new CustomEvent('gps-entity-place-loadedTrees'))
            modelTrees.setAttribute('position', `0 ${modelHeight} 0;`);
@@ -1315,11 +1337,11 @@ sceneTrash.appendChild(modelTrash);
       
       
             modelRestroom.setAttribute('gps-entity-place', `latitude: ${latitudeRestroom}; longitude: ${longitudeRestroom};`);
-            modelRestroom.setAttribute('gltf-model', 'models/restroomLogo.gltf');
+            modelRestroom.setAttribute('gltf-model', 'models/GreenDiamond.gltf');
             
-            modelRestroom.setAttribute('scale', '50 50 50');
+            modelRestroom.setAttribute('scale', '17 17 17');
                  
-            modelRestroom.setAttribute('animation', 'property: rotation; to: 0 360 0; loop:true; dur: 4000; easing: linear');
+            modelRestroom.setAttribute('animation', 'property: rotation; to: 0 360 0; loop:true; dur: 6000; easing: linear');
             modelRestroom.addEventListener('loaded', () => {
            window.dispatchEvent(new CustomEvent('gps-entity-place-loadedRestroom'))
            modelRestroom.setAttribute('position', `0 ${modelHeight} 0;`);
@@ -1383,7 +1405,7 @@ sceneTrash.appendChild(modelTrash);
             
             modelShelter.setAttribute('scale', '25 25 25');
                  
-            modelShelter.setAttribute('animation', 'property: rotation; to: 0 360 0; loop:true; dur: 4000; easing: linear');
+            modelShelter.setAttribute('animation', 'property: rotation; to: 0 360 0; loop:true; dur: 6000; easing: linear');
             modelShelter.addEventListener('loaded', () => {
            window.dispatchEvent(new CustomEvent('gps-entity-place-loadedshelter'))
            modelShelter.setAttribute('position', `0 ${modelHeight} 0;`);
@@ -1499,7 +1521,7 @@ sceneTrash.appendChild(modelTrash);
             
             modelGate.setAttribute('scale', '25 25 25');
                  
-            modelGate.setAttribute('animation', 'property: rotation; to: 0 360 0; loop:true; dur: 4000; easing: linear');
+            modelGate.setAttribute('animation', 'property: rotation; to: 0 360 0; loop:true; dur: 6000; easing: linear');
             modelGate.addEventListener('loaded', () => {
            window.dispatchEvent(new CustomEvent('gps-entity-place-loadedGate'))
            modelGate.setAttribute('position', `0 ${modelHeight} 0;`);
