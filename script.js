@@ -1189,7 +1189,7 @@ sceneTrash.appendChild(modelTrash);
               let p = location.lat + latitudeWaterFeat;
               let t = location.long - longitudeWaterFeat;
          
-         let modelHeight = [(p + t) * 0.3];
+         let modelHeight = [(p + t) * 0.4];
       //////////////////
       
             modelWaterFeat.setAttribute('gps-entity-place', `latitude: ${latitudeWaterFeat}; longitude: ${longitudeWaterFeat};`);
@@ -1332,7 +1332,7 @@ sceneTrash.appendChild(modelTrash);
               let p = location.lat + latitudeRestroom;
               let t = location.long - longitudeRestroom;
          
-         let modelHeight = [(p + t) * 0.3];
+         let modelHeight = [(p + t) * 0.2];
       
       
       
