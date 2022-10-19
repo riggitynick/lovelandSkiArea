@@ -1324,7 +1324,8 @@ sceneTrash.appendChild(modelTrash);
       //home
       {location: {lat: 39.476832,  lng: -105.082243,},},
       {location: {lat: 39.476976, lng: -105.082215,},},
-      
+      {location: {lat: 39.476966609316634,  lng: -105.08184714200644,},},
+      {location: {lat: 39.47687771683653, lng: -105.08182687340062,},},
       
                ];
                }
