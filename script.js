@@ -1351,6 +1351,8 @@ sceneTrash.appendChild(modelTrash);
             modelRestroom.setAttribute('scale', '17 17 17');
                  
             modelRestroom.setAttribute('animation', 'property: rotation; to: 0 360 0; loop:true; dur: 6000; easing: linear');
+            modelRestroom.setAttribute('static-body','');
+            
             modelRestroom.addEventListener('loaded', () => {
            window.dispatchEvent(new CustomEvent('gps-entity-place-loadedRestroom'))
            modelRestroom.setAttribute('position', `0 ${modelHeight} 0;`);
