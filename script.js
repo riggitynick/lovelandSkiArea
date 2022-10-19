@@ -1077,10 +1077,11 @@ AFRAME.registerComponent('collect-disappear', {
 ////////////////////////////
 //modelTrash.setAttribute('dynamic-body','');
 
-    modelTrash.setAttribute('collect-disappear', '');
-   modelTrash.setAttribute('getCenterPoint', '');
+
   
-    //modelTrash.setAttribute('dynamic-body','');
+   
+   
+   //modelTrash.setAttribute('dynamic-body','');
 
 
   //   modelTrash.setAttribute('kinematic-body','');
@@ -1121,9 +1122,17 @@ AFRAME.registerComponent('collect-disappear', {
 
   // modelTrash.append(dynamic-body);
 
+ 
+ 
+ 
+  // modelTrash.setAttribute('collect-disappear', '');
+  // modelTrash.setAttribute('getCenterPoint', '');
+
 
       
 sceneTrash.appendChild(modelTrash);
+
+
          
 //var target = new THREE.Vector3();
 
@@ -1189,7 +1198,7 @@ sceneTrash.appendChild(modelTrash);
               let p = location.lat + latitudeWaterFeat;
               let t = location.long - longitudeWaterFeat;
          
-         let modelHeight = [(p + t) * 0.3] + 8;
+         let modelHeight = [(p + t) * 0.4];
       //////////////////
       
             modelWaterFeat.setAttribute('gps-entity-place', `latitude: ${latitudeWaterFeat}; longitude: ${longitudeWaterFeat};`);
@@ -1332,7 +1341,7 @@ sceneTrash.appendChild(modelTrash);
               let p = location.lat + latitudeRestroom;
               let t = location.long - longitudeRestroom;
          
-         let modelHeight = [(p + t) * 0.3] - 7;
+         let modelHeight = [(p + t) * 0.1];
       
       
       
