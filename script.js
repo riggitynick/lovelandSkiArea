@@ -844,37 +844,37 @@ AFRAME.registerComponent('collect-disappear', {
      
 
       //drive to safeway from house
-      {location: {lat: 39.477122410343625,  lng:  -105.08203099873181},},
-      {location: {lat: 39.47740677166334,  lng:  -105.08203418739164},},
-      {location: {lat: 39.47779330376479,  lng:  -105.08203578434234},},
-      {location: {lat: 39.47787454993185,  lng:  -105.08154936468364},},
-      {location: {lat: 39.47769728590449,  lng:  -105.08117936762049},},
-      {location: {lat: 39.477197501733514,  lng:  -105.08120647982506},},
-      {location: {lat: 39.47653029691424,  lng:  -105.08115225801308},},
-      {location: {lat: 39.47662262299216,  lng:  -105.08063713269647},},
-      {location: {lat: 39.47737845919897,  lng:  -105.08076790682622},},
-      {location: {lat: 39.47804565670487,  lng:  -105.08056695981627},},
-      {location: {lat: 39.478584826058324,  lng:  -105.07989873275142},},
-      {location: {lat: 39.47885317597892,  lng:  -105.07865956121518},},
-      {location: {lat: 39.47885564015799,  lng:  -105.07783983030848},},
-      {location: {lat: 39.478682071840296,  lng:  -105.07693557188841},},
-      {location: {lat: 39.47839156211174,  lng:  -105.0760392872758},},
-      {location: {lat: 39.47807396826054,  lng:  -105.07467731742783},},
-      {location: {lat: 39.47804688731291,  lng:  -105.07345090629434},},
-      {location: {lat: 39.478641450725526,  lng:  -105.0731622449308},},
-      {location: {lat: 39.479211390102876,  lng:  -105.07331534676418},},
-      {location: {lat: 39.47932956229957,  lng:  -105.07317500334345},},
-      {location: {lat: 39.47990934356312,  lng:  -105.07331215746187},},
-      {location: {lat: 39.4804349580648,  lng:  -105.0731750033389},},
-      {location: {lat: 39.48114274704807,  lng:  -105.073312157028},},
-      {location: {lat: 39.4818160625198,  lng:  -105.0731638403681},},
-      {location: {lat: 39.482432750377576,  lng:  -105.07330737343108},},
-      {location: {lat: 39.4832266811384,  lng:  -105.07317181396009},},
-      {location: {lat: 39.48392090204032,  lng:  -105.07331853635057},},
-      {location: {lat: 39.48425816206395,  lng:  -105.07319892573274},},
-      {location: {lat: 39.48498437539287,  lng:  -105.07330258735585},},
-      {location: {lat: 39.48534255505724,  lng:  -105.07317340833953},},
-      {location: {lat: 39.483526688142824,  lng:  -105.07497439572965},},
+      // {location: {lat: 39.477122410343625,  lng:  -105.08203099873181},},
+      // {location: {lat: 39.47740677166334,  lng:  -105.08203418739164},},
+      // {location: {lat: 39.47779330376479,  lng:  -105.08203578434234},},
+      // {location: {lat: 39.47787454993185,  lng:  -105.08154936468364},},
+      // {location: {lat: 39.47769728590449,  lng:  -105.08117936762049},},
+      // {location: {lat: 39.477197501733514,  lng:  -105.08120647982506},},
+      // {location: {lat: 39.47653029691424,  lng:  -105.08115225801308},},
+      // {location: {lat: 39.47662262299216,  lng:  -105.08063713269647},},
+      // {location: {lat: 39.47737845919897,  lng:  -105.08076790682622},},
+      // {location: {lat: 39.47804565670487,  lng:  -105.08056695981627},},
+      // {location: {lat: 39.478584826058324,  lng:  -105.07989873275142},},
+      // {location: {lat: 39.47885317597892,  lng:  -105.07865956121518},},
+      // {location: {lat: 39.47885564015799,  lng:  -105.07783983030848},},
+      // {location: {lat: 39.478682071840296,  lng:  -105.07693557188841},},
+      // {location: {lat: 39.47839156211174,  lng:  -105.0760392872758},},
+      // {location: {lat: 39.47807396826054,  lng:  -105.07467731742783},},
+      // {location: {lat: 39.47804688731291,  lng:  -105.07345090629434},},
+      // {location: {lat: 39.478641450725526,  lng:  -105.0731622449308},},
+      // {location: {lat: 39.479211390102876,  lng:  -105.07331534676418},},
+      // {location: {lat: 39.47932956229957,  lng:  -105.07317500334345},},
+      // {location: {lat: 39.47990934356312,  lng:  -105.07331215746187},},
+      // {location: {lat: 39.4804349580648,  lng:  -105.0731750033389},},
+      // {location: {lat: 39.48114274704807,  lng:  -105.073312157028},},
+      // {location: {lat: 39.4818160625198,  lng:  -105.0731638403681},},
+      // {location: {lat: 39.482432750377576,  lng:  -105.07330737343108},},
+      // {location: {lat: 39.4832266811384,  lng:  -105.07317181396009},},
+      // {location: {lat: 39.48392090204032,  lng:  -105.07331853635057},},
+      // {location: {lat: 39.48425816206395,  lng:  -105.07319892573274},},
+      // {location: {lat: 39.48498437539287,  lng:  -105.07330258735585},},
+      // {location: {lat: 39.48534255505724,  lng:  -105.07317340833953},},
+      // {location: {lat: 39.483526688142824,  lng:  -105.07497439572965},},
        
 
 //Loveland
@@ -1134,24 +1134,7 @@ sceneTrash.appendChild(modelTrash);
 
 
          
-//var target = new THREE.Vector3();
 
-           
-//this.getCenter(target); 
-
-
-// bBox3.getCenter(modelTrash); 
-//sceneTrash.getCenter(center);
-
-     // console.log(modelHeight);
-
-      
-
-//             if (modelHeight < 23.6860){
-// modelTrash.remove();
-// count+=1;
-//             };
-      ////////////////////
 
         });
           
@@ -1163,7 +1146,7 @@ sceneTrash.appendChild(modelTrash);
       //THE WATER FEATURE LOCATIONS
       function staticLoadPlacesWaterFeat() {
         return [
-            {location: {lat: 39.68500482272045, lng: -105.90063025462311,},},  //Loveland pond
+          //  {location: {lat: 39.68500482272045, lng: -105.90063025462311,},},  //Loveland pond
 
             {location: {lat: 39.484071, lng: -105.075172,},},
             {location: {lat: 39.483723,  lng: -105.075175,},},
@@ -1448,69 +1431,37 @@ sceneTrash.appendChild(modelTrash);
       //GATES - ENTRANCES
       function staticLoadPlacesGate() {
         return [
-            {location: {lat: 39.484604,  lng: -105.074975,},},
-            {location: {lat: 39.484071, lng: -105.075172,},},
-            {location: {lat: 39.483723,  lng: -105.075175,},},
-            {location: {lat: 39.484170,  lng: -105.073804,},},
-            {location: {lat: 39.482957,  lng: -105.073747,},},
-      
-            {location: {lat: 39.723912, lng: -105.029652,},}, //Barnum
-      {location: {lat: 39.723762, lng: -105.031060,},}, //Barnum
-      {location: {lat: 39.782149, lng: -105.052005,},}, //Berkeley Lake
-      {location: {lat: 39.927829, lng: -105.008597,},}, //Big dry creek
-      {location: {lat: 39.927881, lng: -105.007193,},}, //Big dry creek
-      {location: {lat: 39.889834, lng: -104.962848,},}, //Bill Goodspeed
-      {location: {lat: 39.939197, lng: -105.049565,},}, //Broomfield County Commons Dog Park
-      {location: {lat: 39.939198, lng: -105.050861,},}, //Broomfield County Commons Dog Park
-      {location: {lat: 39.561687, lng: -105.056319,},}, //chatfield dog park
-      {location: {lat:  39.562920, lng: -105.050740,},}, //chatfield dog park
-      {location: {lat: 39.613544, lng: -104.816600,},}, //Cherry Creek dog park
-      {location: {lat: 39.978292, lng: -105.166708 ,},}, //Davidson Mesa
-      {location: {lat: 39.536106, lng: -104.951122,},}, //Diggers Dog Park
-      {location: {lat: 39.779320, lng: -105.186721,},}, //Dog park at Tony Grampsas
-      {location: {lat: 39.991242, lng: -105.222428,},}, //East Boulder dog park
-      
-      {location: {lat: 39.991142, lng: -105.222282,},}, //East Boulder dog park
-      {location: {lat: 39.628316, lng: -105.005715,},}, //Englewood Canine Corral
-      {location: {lat: 39.628056, lng: -105.004049,},}, //Englewood Canine Corral
-      {location: {lat: 39.535051, lng: -104.998044,},}, //Fido’s field
-      {location: {lat: 39.800355, lng: -104.758753 ,},}, //First Creek Farm Small Dog Park
-      {location: {lat: 39.800750, lng: -104.758651,},}, //First Creek Farm Small Dog Park
-      {location: {lat: 39.679400, lng: -105.167043,},}, //Frosberg – Iron Spring
-      {location: {lat: 39.757731, lng: -104.967579,},}, //Fuller dog park
-      {location: {lat: 39.757943, lng: -104.967674,},}, //Fuller dog park
-      {location: {lat: 39.490991, lng: -104.870146,},}, //Glendale Farm open space
-      {location: {lat: 39.637296, lng: -104.784177,},}, //Grandview dog park
-      {location: {lat: 39.779384, lng: -104.750837,},}, //Green Valley Ranch East Off Leash Area
-      {location: {lat: 39.779871, lng: -104.751268,},}, //Green Valley Ranch East Off Leash Area
-      {location: {lat: 39.967986, lng: -104.764535,},}, // Happy Tails
-      {location: {lat: 39.537967, lng:  -104.918199,},}, // Hound Hill
-      {location: {lat: 40.033620, lng: -105.248143,},}, //Howard Heuston off leash
-      {location: {lat: 39.639493, lng: -104.999884,},}, // Jason dog park
-      {location: {lat: 39.649874, lng:  -104.874526,},}, //Kennedy dog park
-      {location: {lat:  39.649670, lng: -104.874513,},}, //Kennedy dog park
-      {location: {lat: 39.970822, lng: -105.131025 ,},}, //Louisville dog park
-      {location: {lat: 39.971178, lng: -105.130911,},}, //Louisville dog park
-      {location: {lat: 39.970871, lng: -105.130465,},}, //Louisville dog park
-      {location: {lat: 39.719189, lng: -104.882601,},}, //Lowry dog park
-      {location: {lat:  39.718944, lng: -104.881439,},}, //Lowry dog park
-      {location: {lat: 39.718528, lng: -104.880850,},}, //Lowry dog park
-      {location: {lat: 39.758123, lng: -105.001611,},}, //Railyard dog park
-      {location: {lat: 39.547063, lng: -105.022134,},}, //Rovers run
-      {location: {lat: 39.748901, lng: -104.898119,},}, //Stapleton dog park
-      {location: {lat: 39.749936, lng: -104.897206,},}, //Stapleton dog park
-      
-      {location: {lat:  40.004492, lng: -105.075453,},}, // the Great Bark
-      {location: {lat: 40.030426, lng: -105.230216,},}, //Valmont dog Park
-      {location: {lat: 40.030245, lng:  -105.230101,},}, // Valmont dog Park
-      {location: {lat: 39.816730, lng: -105.205842,},}, //West Arvada dog park
-      {location: {lat: 39.816770, lng: -105.203811,},}, // West Arvada dog park
-      {location: {lat: 39.878770, lng: -105.132095,},}, //Westminster Hills Off Leash Dog Park
-      {location: {lat: 39.610559, lng: -105.038777,},}, //Wynetka Ponds Dog Park
-      //500
-      {location: {lat: 39.744810,  lng: -104.838520 ,},},
-      //Home
-      {location: {lat: 39.476921,  lng: -105.081980 ,},},
+          {location: {lat: 39.477122410343625,  lng:  -105.08203099873181},},
+          {location: {lat: 39.47740677166334,  lng:  -105.08203418739164},},
+          {location: {lat: 39.47779330376479,  lng:  -105.08203578434234},},
+          {location: {lat: 39.47787454993185,  lng:  -105.08154936468364},},
+          {location: {lat: 39.47769728590449,  lng:  -105.08117936762049},},
+          {location: {lat: 39.477197501733514,  lng:  -105.08120647982506},},
+          {location: {lat: 39.47653029691424,  lng:  -105.08115225801308},},
+          {location: {lat: 39.47662262299216,  lng:  -105.08063713269647},},
+          {location: {lat: 39.47737845919897,  lng:  -105.08076790682622},},
+          {location: {lat: 39.47804565670487,  lng:  -105.08056695981627},},
+          {location: {lat: 39.478584826058324,  lng:  -105.07989873275142},},
+          {location: {lat: 39.47885317597892,  lng:  -105.07865956121518},},
+          {location: {lat: 39.47885564015799,  lng:  -105.07783983030848},},
+          {location: {lat: 39.478682071840296,  lng:  -105.07693557188841},},
+          {location: {lat: 39.47839156211174,  lng:  -105.0760392872758},},
+          {location: {lat: 39.47807396826054,  lng:  -105.07467731742783},},
+          {location: {lat: 39.47804688731291,  lng:  -105.07345090629434},},
+          {location: {lat: 39.478641450725526,  lng:  -105.0731622449308},},
+          {location: {lat: 39.479211390102876,  lng:  -105.07331534676418},},
+          {location: {lat: 39.47932956229957,  lng:  -105.07317500334345},},
+          {location: {lat: 39.47990934356312,  lng:  -105.07331215746187},},
+          {location: {lat: 39.4804349580648,  lng:  -105.0731750033389},},
+          {location: {lat: 39.48114274704807,  lng:  -105.073312157028},},
+          {location: {lat: 39.4818160625198,  lng:  -105.0731638403681},},
+          {location: {lat: 39.482432750377576,  lng:  -105.07330737343108},},
+          {location: {lat: 39.4832266811384,  lng:  -105.07317181396009},},
+          {location: {lat: 39.48392090204032,  lng:  -105.07331853635057},},
+          {location: {lat: 39.48425816206395,  lng:  -105.07319892573274},},
+          {location: {lat: 39.48498437539287,  lng:  -105.07330258735585},},
+          {location: {lat: 39.48534255505724,  lng:  -105.07317340833953},},
+          {location: {lat: 39.483526688142824,  lng:  -105.07497439572965},},
                ];
                }
           
@@ -1527,16 +1478,17 @@ sceneTrash.appendChild(modelTrash);
               let p = location.lat + latitudeGate;
               let t = location.long - longitudeGate;
          
-         let modelHeight = [(p + t) * 0.3];
+         let modelHeight = [(p + t) * 0.2];
       
       
       
             modelGate.setAttribute('gps-entity-place', `latitude: ${latitudeGate}; longitude: ${longitudeGate};`);
-            modelGate.setAttribute('gltf-model', 'models/DogParkGate.gltf');
+            modelGate.setAttribute('gltf-model', 'models/GreenDiamond.gltf');
             
-            modelGate.setAttribute('scale', '25 25 25');
+            modelGate.setAttribute('scale', '17 17 17');
                  
             modelGate.setAttribute('animation', 'property: rotation; to: 0 360 0; loop:true; dur: 6000; easing: linear');
+            modelGate.setAttribute('static-body', '');
             modelGate.addEventListener('loaded', () => {
            window.dispatchEvent(new CustomEvent('gps-entity-place-loadedGate'))
            modelGate.setAttribute('position', `0 ${modelHeight} 0;`);
@@ -1550,6 +1502,9 @@ sceneTrash.appendChild(modelTrash);
       
             });
        
+            modelGate.setAttribute('collect-disappear', '');
+            modelGate.setAttribute('getCenterPoint', '');
+
             sceneGate.appendChild(modelGate);
         });
        }
