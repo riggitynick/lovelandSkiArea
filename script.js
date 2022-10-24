@@ -1325,7 +1325,7 @@ sceneTrash.appendChild(modelTrash);
               let p = location.lat + latitudeRestroom;
               let t = location.long - longitudeRestroom;
          
-         let modelHeight = [(p + t) * 0.1];
+         let modelHeight = [(p + t) * 0.22];
       
       
       
@@ -1333,7 +1333,8 @@ sceneTrash.appendChild(modelTrash);
             modelRestroom.setAttribute('gltf-model', 'models/GreenDiamond.gltf');
             
             modelRestroom.setAttribute('scale', '17 17 17');
-                 
+
+                             
             modelRestroom.setAttribute('animation', 'property: rotation; to: 0 360 0; loop:true; dur: 6000; easing: linear');
             modelRestroom.setAttribute('static-body','');
             
@@ -1462,6 +1463,12 @@ sceneTrash.appendChild(modelTrash);
           {location: {lat: 39.48498437539287,  lng:  -105.07330258735585},},
           {location: {lat: 39.48534255505724,  lng:  -105.07317340833953},},
           {location: {lat: 39.483526688142824,  lng:  -105.07497439572965},},
+
+
+          {location: {lat: 39.47692430018184,  lng:  -105.08176662647963},},
+          {location: {lat: 39.47689324504697,  lng:  -105.08180417750458},},
+
+          
                ];
                }
           
@@ -1483,7 +1490,7 @@ sceneTrash.appendChild(modelTrash);
       
       
             modelGate.setAttribute('gps-entity-place', `latitude: ${latitudeGate}; longitude: ${longitudeGate};`);
-            modelGate.setAttribute('gltf-model', 'models/GreenDiamond.gltf');
+            modelGate.setAttribute('gltf-model', 'models/BlueDiamond.gltf');
             
             modelGate.setAttribute('scale', '17 17 17');
                  
