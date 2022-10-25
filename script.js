@@ -1326,14 +1326,14 @@ sceneTrash.appendChild(modelTrash);
               let p = location.lat + latitudeRestroom;
               let t = location.long - longitudeRestroom;
          
-         let modelHeight = [(p + t) * 0.33];
+         let modelHeight = [(p + t) * 0.34];
       
       
       
             modelRestroom.setAttribute('gps-entity-place', `latitude: ${latitudeRestroom}; longitude: ${longitudeRestroom};`);
             modelRestroom.setAttribute('gltf-model', 'models/GreenDiamond.gltf');
             
-            modelRestroom.setAttribute('scale', '14 14 14');
+            modelRestroom.setAttribute('scale', '10 10 10');
 
                              
             modelRestroom.setAttribute('animation', 'property: rotation; to: 0 360 0; loop:true; dur: 6000; easing: linear');
