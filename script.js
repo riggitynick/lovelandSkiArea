@@ -1517,7 +1517,7 @@ sceneTrash.appendChild(modelTrash);
             });
        
             modelGate.setAttribute('collect-disappear', '');
-            modelGate.setAttribute('getCenterPoint', '');
+            // modelGate.setAttribute('getCenterPoint', '');
 
             sceneGate.appendChild(modelGate);
         });
