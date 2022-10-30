@@ -1189,8 +1189,14 @@ sceneTrash.appendChild(modelTrash);
             // modelCU.setAttribute('gltf-model', 'models/dogParkParking.gltf');
             modelWaterFeat.setAttribute('scale', '25 25 25');
                  //allows to rotate
-            modelWaterFeat.setAttribute('animation', 'property: rotation; to: 0 360 0; loop:true; dur: 9000; easing: linear');
-            
+            modelWaterFeat.setAttribute('animation', 'property: rotation; to: 0 360 0; loop:true; dur: 18000; easing: linear');
+            //light
+            modelWaterFeat.setAttribute('light', "type: hemisphere; color: blue; intensity:0.3");
+            //second animation
+           // modelWaterFeat.setAttribute('animation__2', 'property: scale; to: 32 32 32; loop:true; dur: 11000; easing: linear');
+
+           // modelWaterFeat.setAttribute('animation__3', 'property: opacity; from: 0; to: 1 ;loop:true; dur: 10000');
+
             modelWaterFeat.setAttribute('static-body','');
 
             modelWaterFeat.addEventListener('loaded', () => {
@@ -1493,7 +1499,7 @@ sceneTrash.appendChild(modelTrash);
             modelGate.setAttribute('gps-entity-place', `latitude: ${latitudeGate}; longitude: ${longitudeGate};`);
             modelGate.setAttribute('gltf-model', 'models/BlueDiamond.gltf');
             
-            modelGate.setAttribute('scale', '17 17 17');
+            modelGate.setAttribute('scale', '14 14 14');
                  
             modelGate.setAttribute('animation', 'property: rotation; to: 0 360 0; loop:true; dur: 6000; easing: linear');
             modelGate.setAttribute('static-body', '');
