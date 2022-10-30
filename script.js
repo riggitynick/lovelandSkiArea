@@ -1497,9 +1497,9 @@ sceneTrash.appendChild(modelTrash);
       
       
             modelGate.setAttribute('gps-entity-place', `latitude: ${latitudeGate}; longitude: ${longitudeGate};`);
-            modelGate.setAttribute('gltf-model', 'models/BlueDiamond2.gltf');
+            modelGate.setAttribute('gltf-model', 'models/BlueDiamond.gltf');
             
-            modelGate.setAttribute('scale', '14 14 14');
+            modelGate.setAttribute('scale', '10 14 10');
                  
             modelGate.setAttribute('animation', 'property: rotation; to: 0 360 0; loop:true; dur: 6000; easing: linear');
             modelGate.setAttribute('static-body', '');
