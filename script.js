@@ -1492,7 +1492,7 @@ sceneTrash.appendChild(modelTrash);
               let p = location.lat + latitudeGate;
               let t = location.long - longitudeGate;
          
-         let modelHeight = [(p + t) * 0.35];
+         let modelHeight = [(p + t) * 0.4];
       
       
       
