@@ -1492,14 +1492,14 @@ sceneTrash.appendChild(modelTrash);
               let p = location.lat + latitudeGate;
               let t = location.long - longitudeGate;
          
-         let modelHeight = [(p + t) * 0.34];
+         let modelHeight = [(p + t) * 0.4];
       
       
       
             modelGate.setAttribute('gps-entity-place', `latitude: ${latitudeGate}; longitude: ${longitudeGate};`);
-            modelGate.setAttribute('gltf-model', 'models/BlueDiamond.gltf');
+            modelGate.setAttribute('gltf-model', 'models/BlueDiamond2.gltf');
             
-            modelGate.setAttribute('scale', '10 10 10');
+            modelGate.setAttribute('scale', '13 13 14');
                  
             modelGate.setAttribute('animation', 'property: rotation; to: 0 360 0; loop:true; dur: 6000; easing: linear');
             modelGate.setAttribute('static-body', '');
