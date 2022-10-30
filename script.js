@@ -1339,7 +1339,7 @@ sceneTrash.appendChild(modelTrash);
             modelRestroom.setAttribute('gps-entity-place', `latitude: ${latitudeRestroom}; longitude: ${longitudeRestroom};`);
             modelRestroom.setAttribute('gltf-model', 'models/GreenDiamond.gltf');
             
-            modelRestroom.setAttribute('scale', '10 10 10');
+            modelRestroom.setAttribute('scale', '100 100 100');
 
                              
             modelRestroom.setAttribute('animation', 'property: rotation; to: 0 360 0; loop:true; dur: 6000; easing: linear');
@@ -1358,8 +1358,8 @@ sceneTrash.appendChild(modelTrash);
       
             });
        
-            modelRestroom.setAttribute('collect-disappear', '');
-            modelRestroom.setAttribute('getCenterPoint', '');
+          //  modelRestroom.setAttribute('collect-disappear', '');
+          //  modelRestroom.setAttribute('getCenterPoint', '');
 
             sceneRestroom.appendChild(modelRestroom);
         });
@@ -1499,7 +1499,7 @@ sceneTrash.appendChild(modelTrash);
             modelGate.setAttribute('gps-entity-place', `latitude: ${latitudeGate}; longitude: ${longitudeGate};`);
             modelGate.setAttribute('gltf-model', 'models/BlueDiamond.gltf');
             
-            modelGate.setAttribute('scale', '14 14 14');
+            modelGate.setAttribute('scale', '5 5 5');
                  
             modelGate.setAttribute('animation', 'property: rotation; to: 0 360 0; loop:true; dur: 6000; easing: linear');
             modelGate.setAttribute('static-body', '');
@@ -1517,7 +1517,7 @@ sceneTrash.appendChild(modelTrash);
             });
        
             modelGate.setAttribute('collect-disappear', '');
-            // modelGate.setAttribute('getCenterPoint', '');
+            modelGate.setAttribute('getCenterPoint', '');
 
             sceneGate.appendChild(modelGate);
         });
