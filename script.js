@@ -1510,11 +1510,11 @@ sceneTrash.appendChild(modelTrash);
             });
       
       
-       modelGate.addEventListener('click', () => {
+      //  modelGate.addEventListener('click', () => {
        
-         document.getElementById("gatePopup").style.display ="unset";
+      //    document.getElementById("gatePopup").style.display ="unset";
       
-            });
+      //       });
        
             modelGate.setAttribute('collect-disappear', '');
             modelGate.setAttribute('getCenterPoint', '');
