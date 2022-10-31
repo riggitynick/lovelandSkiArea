@@ -1337,7 +1337,8 @@ sceneTrash.appendChild(modelTrash);
       
       
             modelRestroom.setAttribute('gps-entity-place', `latitude: ${latitudeRestroom}; longitude: ${longitudeRestroom};`);
-            modelRestroom.setAttribute('gltf-model', 'models/GreenDiamond.gltf');
+           // modelRestroom.setAttribute('gltf-model', 'models/GreenDiamond.gltf');
+          
             
             modelRestroom.setAttribute('scale', '10 10 10');
 
