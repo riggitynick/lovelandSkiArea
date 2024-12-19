@@ -748,7 +748,8 @@ AFRAME.registerComponent('collect-disappear', {
       //       // home
              {location: {lat: 39.476687,  lng: -105.081950 ,},},
       
-      
+      {location: {lat: 42.72652189433353,  lng:   -88.98137987068479},},
+{location: {lat: 42.72614710822972,  lng:   -88.98136090663259},},
       
       
       
